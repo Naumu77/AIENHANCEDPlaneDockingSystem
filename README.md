@@ -1,7 +1,7 @@
 
-**Project: Aircraft Docking Guidance System**
+**Project: Aircraft Visual Docking Guidance System**
 
-This project implements an aircraft docking guidance system using deep learning techniques. The system leverages Roboflow for data labeling, YOLOv5 for model training, PyTorch for model deployment, and ONNX conversion for efficient inference on a Raspberry Pi.
+This project implements an aircraft visual docking guidance system using deep learning techniques. The system leverages Roboflow for data labeling, YOLOv5 for model training, PyTorch for model deployment, and ONNX conversion for efficient inference on a Raspberry Pi.
 
 **Getting Started**
 
@@ -14,8 +14,9 @@ This project implements an aircraft docking guidance system using deep learning 
 
 **Data Preparation**
 
-Can go through my data through Roboflow [https://app.roboflow.com/plane-ggvsu/avdgs/1]
-or can access trained data in this repository [https://github.com/Naumu77/AIENHANCEDPlaneDockingSystem/tree/main/Data/datatrain2]
+Data Labelling have been showned through Roboflow [https://app.roboflow.com/plane-ggvsu/avdgs/1]
+
+You can access trained data in this repository [https://github.com/Naumu77/AIENHANCEDPlaneDockingSystem/tree/main/Data/datatrain2]
 
 1. **Getting started to Roboflow Project:**
 
@@ -64,7 +65,10 @@ or can access trained data in this repository [https://github.com/Naumu77/AIENHA
    after training is completed the best.pt and last.pt are created automatically
 
 2.**For my Project model named "plane.pt" have converted to "plane.onnx":** 
-you can view in this repository [https://github.com/Naumu77/AIENHANCEDPlaneDockingSystem/tree/main/models]
+
+you can view in this repository 
+[https://github.com/Naumu77/AIENHANCEDPlaneDockingSystem/tree/main/models]
+       
        ready to be deployed to the raspberry pi 
 **Deploy to Raspberry Pi:**
 To ensure smooth deployment on a Raspberry Pi, it's crucial to undergo the conversion process from PyTorch to ONNX format. This conversion optimizes compatibility and efficiency for the Pi's architecture. By converting the model beforehand, you streamline the deployment process and enhance performance on the Raspberry Pi platform.
@@ -76,5 +80,7 @@ To ensure smooth deployment on a Raspberry Pi, it's crucial to undergo the conve
 **Additional Notes**
 
 training notebook [https://colab.research.google.com/drive/1XmuTuzO1GCwCaeicX6bLFZTk26zEGU5t#scrollTo=GV1Al5NZbwc9]
+
 conversion pytorch to onnx notebook [https://colab.research.google.com/drive/1kbLkAc1AvEfSCQ3A17cNwATZbnVNp9nC]
+
 roboflow labeling [https://app.roboflow.com/plane-ggvsu/avdgs/1]

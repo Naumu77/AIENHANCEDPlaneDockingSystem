@@ -81,6 +81,6 @@ To ensure smooth deployment on a Raspberry Pi, it's crucial to undergo the conve
 
 training notebook [https://colab.research.google.com/drive/1XmuTuzO1GCwCaeicX6bLFZTk26zEGU5t#scrollTo=GV1Al5NZbwc9]
 
-conversion pytorch to onnx notebook [https://colab.research.google.com/drive/1kbLkAc1AvEfSCQ3A17cNwATZbnVNp9nC]
+conversion pytorch to onnx notebook [https://colab.research.google.com/drive/1kbLkAc1AvEfSCQ3A17cNwATZbnVNp9nC?usp=sharing]
 
 roboflow labeling [https://app.roboflow.com/plane-ggvsu/avdgs/1]
